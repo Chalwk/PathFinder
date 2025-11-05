@@ -47,7 +47,7 @@ function Grid.new(soundManager, colors)
 
     -- For gradual beam propagation
     instance.beamProgress = 0
-    instance.beamSpeed = 5.5 -- tiles per second
+    instance.beamSpeed = 7.2 -- tiles per second
     instance.activeBeamPath = {}
     instance.targetX, instance.targetY = nil, nil
 
